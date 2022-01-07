@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="timesheet:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>timesheet</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="timesheet-1.0.war">
+      <element id="artifact" artifact-name="timesheet:war exploded" />
+    </root>
+  </artifact>
+</component>
